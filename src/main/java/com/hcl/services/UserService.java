@@ -33,7 +33,9 @@ public class UserService {
         }
 
     }
-
+    public Iterable<User> findAll(){
+        return userRepository.findAll();
+    }
 
 
 }
